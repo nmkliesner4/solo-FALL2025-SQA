@@ -2,6 +2,7 @@ import sys
 import os
 import pkgutil
 import importlib
+import importlib.util
 import inspect
 import random
 import string
@@ -75,32 +76,40 @@ def gen_arg_for_param(param):
 def discover_functions(root):
     sys.path.insert(0, root)
     found = []
-    # avoid fuzzing the fuzzer, the forensics helper, or any files under artifacts
-    skip_paths = {
+    artifacts_dir = os.path.abspath(os.path.join(root, "artifacts"))
+    skip_files = {
         os.path.abspath(__file__),
         os.path.abspath(os.path.join(root, "forensics.py")),
-        os.path.abspath(os.path.join(root, "artifacts")),
     }
-    for finder, name, ispkg in pkgutil.walk_packages([root]):
-        if name.startswith("_"):
+    for dirpath, dirnames, filenames in os.walk(root):
+        # skip artifacts dir entirely
+        if os.path.abspath(dirpath).startswith(artifacts_dir):
             continue
-        try:
-            module = importlib.import_module(name)
-        except Exception:
-            continue
-        mod_file = getattr(module, "__file__", None)
-        if not mod_file:
-            continue
-        mod_file = os.path.abspath(mod_file)
-        # skip modules living in the artifacts dir or the explicit skip files
-        if any(mod_file.startswith(p) for p in skip_paths):
-            continue
-        # skip fuzzing this script or the forensics helper by module name too
-        if module.__name__.startswith(("fuzz", "forensics")):
-            continue
-        for _, obj in inspect.getmembers(module, inspect.isfunction):
-            if inspect.getmodule(obj) is module:
-                found.append((module, obj))
+        for fname in filenames:
+            if not fname.endswith(".py"):
+                continue
+            path = os.path.abspath(os.path.join(dirpath, fname))
+            if path in skip_files:
+                continue
+            rel = os.path.relpath(path, root)
+            # skip hidden/underscore modules
+            if os.path.basename(rel).startswith("_"):
+                continue
+            # Load module by file location to avoid package-import quirks
+            mod_name = rel[:-3].replace(os.sep, ".")  # used for a nicer name
+            loader_name = mod_name.replace(".", "_")
+            try:
+                spec = importlib.util.spec_from_file_location(loader_name, path)
+                if spec is None or spec.loader is None:
+                    continue
+                module = importlib.util.module_from_spec(spec)
+                sys.modules[loader_name] = module
+                spec.loader.exec_module(module)
+            except Exception:
+                continue
+            for _, obj in inspect.getmembers(module, inspect.isfunction):
+                if inspect.getmodule(obj) is module:
+                    found.append((module, obj))
     return found
 
 def instrument_and_choose(functions, max_funcs=5):
