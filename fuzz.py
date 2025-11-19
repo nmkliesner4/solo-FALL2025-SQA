@@ -12,7 +12,7 @@ from datetime import datetime
 
 # Lightweight forensic decorator import (file forensic.py is included)
 try:
-    from forensic import forensic_wrap
+    from forensics import forensic_wrap
 except Exception:
     def forensic_wrap(f):
         return f
@@ -79,7 +79,7 @@ def discover_functions(root):
     artifacts_dir = os.path.abspath(os.path.join(root, "artifacts"))
     skip_files = {
         os.path.abspath(__file__),
-        os.path.abspath(os.path.join(root, "forensics.py")),
+        # os.path.abspath(os.path.join(root, "forensics.py")),  # no longer skip forensics.py
     }
     for dirpath, dirnames, filenames in os.walk(root):
         # skip artifacts dir entirely
