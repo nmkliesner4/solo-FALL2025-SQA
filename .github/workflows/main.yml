@@ -23,6 +23,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
       - name: Run fuzz.py
         run: |
           python fuzz.py
+
+      - name: Save fuzz results
+        uses: actions/upload-artifact@v4
+        with:
+          name: fuzz_results.log
+          path: /home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz_results.log
