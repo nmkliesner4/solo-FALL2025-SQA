@@ -102,9 +102,23 @@ def import_module_from_path(path):
     loader = spec.loader
     if loader is None:
         raise ImportError(path)
-    loader.exec_module(mod)
-    return mod
 
+    # Ensure sibling modules (like "import py_parser") can be resolved:
+    module_dir = os.path.dirname(os.path.abspath(path))
+    added = False
+    try:
+        if module_dir not in sys.path:
+            sys.path.insert(0, module_dir)
+            added = True
+        loader.exec_module(mod)
+    finally:
+        if added:
+            try:
+                sys.path.remove(module_dir)
+            except ValueError:
+                pass
+
+    return mod
 
 def generate_value_for_param(name, ann):
     # basic heuristics by annotation or name
@@ -270,7 +284,6 @@ def fuzz_targets(targets, iterations=100, timeout=2, seed=None, log_path=None):
     with open(log_path, "a", encoding="utf-8") as lf:
         lf.write("\n".join(log_lines))
     print(f"Fuzzing complete. Logged {len(log_lines)} events to {log_path}")
-
 
 def main():
     p = argparse.ArgumentParser()
