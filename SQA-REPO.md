@@ -14,7 +14,8 @@ Next, I integrated forensics using logging statements by modifying the following
 
 
 Finally, I integrated fuzz.py into the CI/CD pipeline by creating a github action that runs the file and saves the output log as an artifact. An example artifact can be found in the github repo under “fuzz_results.log”
-
+	
+	Location of CI/CD build: https://github.com/nmkliesner4/solo-FALL2025-SQA/actions/runs/19803545840
 
 
 ## Lessons Learned
@@ -25,3 +26,4 @@ By adding detailed logging instrumentation to several MLForensics methods, I lea
 
 
 Finally, by incorporating the fuzzing tool into a CI/CD pipeline using GitHub Actions, I gained experience with automated testing workflows, artifact storage, and continuous quality assurance. This reinforced how automated fuzzing can be used as part of a real-world software engineering and DevOps process.
+
