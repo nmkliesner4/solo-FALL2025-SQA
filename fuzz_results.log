@@ -1,0 +1,1655 @@
+Failed to import /home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/empirical/dataset.stats.py: No module named 'git'
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 251, in fuzz_targets
+    mod = import_module_from_path(fp)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 113, in import_module_from_path
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/empirical/dataset.stats.py", line 8, in <module>
+    from git import Repo
+ModuleNotFoundError: No module named 'git'
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:0 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:1 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:2 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:3 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:4 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:5 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:6 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:7 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:8 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:9 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:10 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:11 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:12 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:13 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:14 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:15 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:16 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:17 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:18 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:19 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:20 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:21 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:22 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:23 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:24 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:25 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:26 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:27 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:28 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:29 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:30 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:31 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:32 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:33 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:34 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:35 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:36 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:37 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:38 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:39 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:40 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:41 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:42 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:43 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:44 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:45 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:46 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:47 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:48 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:49 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:50 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:51 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:52 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:53 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:54 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:55 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:56 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:57 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:58 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:59 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:60 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:61 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:62 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:63 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:64 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:65 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:66 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:67 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:68 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:69 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:70 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:71 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:72 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:73 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:74 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:75 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:76 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:77 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:78 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:79 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:80 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:81 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:82 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:83 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:84 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:85 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:86 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:87 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:88 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:89 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:90 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:91 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:92 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:93 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:94 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:95 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:96 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:97 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:98 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Target:MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py::getModelLoadCountb Iter:99 args=('',) kwargs={}
+Exception:
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 207, in runner
+    res = target_callable(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/lint_engine.py", line 250, in getModelLoadCountb
+    py_tree = py_parser.getPythonParseObject(py_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/FAME-ML/py_parser.py", line 82, in getPythonParseObject
+    full_tree = ast.parse( open( pyFile ).read())
+                       ^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+
+
+Failed to import /home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/mining/git.repo.miner.py: No module named 'git'
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 251, in fuzz_targets
+    mod = import_module_from_path(fp)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 113, in import_module_from_path
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/mining/git.repo.miner.py", line 13, in <module>
+    from git import Repo
+ModuleNotFoundError: No module named 'git'
+
+
+Failed to import /home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/mining/mining.py: No module named 'git'
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 251, in fuzz_targets
+    mod = import_module_from_path(fp)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 113, in import_module_from_path
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/mining/mining.py", line 9, in <module>
+    from git import Repo
+ModuleNotFoundError: No module named 'git'
+
+
+Failed to import /home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/mining/mining.py: No module named 'git'
+Traceback (most recent call last):
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 251, in fuzz_targets
+    mod = import_module_from_path(fp)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/fuzz.py", line 113, in import_module_from_path
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/runner/work/solo-FALL2025-SQA/solo-FALL2025-SQA/MLForensics/MLForensics-farzana/mining/mining.py", line 9, in <module>
+    from git import Repo
+ModuleNotFoundError: No module named 'git'
+
